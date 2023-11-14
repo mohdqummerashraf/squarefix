@@ -1,0 +1,18 @@
+.navbarContainer {
+    padding: 1rem;
+}
+
+.singleMenudiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navbarDivider {
+    width: 96%;
+    margin: auto;
+    height: 1px;
+    background-color: rgb(147, 147, 147);
+    margin-top: 15px;
+}
