@@ -1,0 +1,85 @@
+.contactus {
+
+    padding: 5px 7px;
+    background-color: #383838;
+    border-radius: 4px 4px 4px 4px;
+    color: #F5F5F5;
+    width: 10%;
+    text-align: center;
+    font-size: 12px;
+    margin: 1rem 0px 20px 0px;
+    text-transform: uppercase;
+
+}
+
+.contactusHeading {
+    color: #dee0ff;
+    font-size: 44px;
+    letter-spacing: 1.5px;
+    line-height: 50px;
+    margin: 4% 0px;
+    width: 50%;
+    font-weight: bolder;
+}
+
+.btn {
+    font-family: inter tight, Sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: none;
+    font-style: normal;
+    line-height: 1.2em;
+    letter-spacing: 0;
+    word-spacing: 0;
+    color: #010ed0;
+    background-color: #ffffff;
+    border-radius: 4px 4px 4px 4px;
+    padding: 14px 24px;
+
+}
+
+.formContainer {
+    background-color: #ffffff;
+    width: 90%;
+    border-radius: 5px;
+    padding: 5%;
+}
+
+.formHeading {
+    color: #0a0d31;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 0px;
+    font-weight: bold;
+}
+
+.inputBox {
+    width: 100%;
+    margin: 5px 0px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+    height: 25px;
+}
+
+.formLabel {
+    font-size: 14px;
+    margin: 20px 0px;
+}
+
+
+.smallBtn {
+    font-family: inter tight, Sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: none;
+    font-style: normal;
+    line-height: 1.2em;
+    letter-spacing: 0;
+    word-spacing: 0;
+    color: #ffffff;
+    background-color: #010ed0;
+    border-radius: 4px 4px 4px 4px;
+    padding: 14px 24px;
+    border: none;
+}

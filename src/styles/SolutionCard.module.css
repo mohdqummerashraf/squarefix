@@ -1,0 +1,131 @@
+.howWeDo {
+    margin: 0 0 20px;
+    padding: 7px 9px 6px;
+    background-color: #f5f5f5;
+    border-radius: 4px 4px 4px 4px;
+    color: #5f6567;
+    width: 10%;
+    text-align: center;
+    font-size: 12px;
+    margin: 40px 10px 10px 3%;
+}
+
+.solutionHeading {
+    color: #0a0d31;
+    font-size: clamp(2rem, 3.5rem, 4vw);
+    font-weight: 700;
+
+
+
+}
+
+.card {
+    text-align: left;
+    padding: 20px 30px 10px;
+    background-color: #ffffff;
+    width: 75%;
+    margin: 3% auto;
+    border-radius: 5px;
+}
+
+.cardTitle {
+    font-size: 32px;
+    font-weight: 500;
+    margin: 3% auto;
+    color: #242627;
+    font-size: 26px;
+}
+
+.cardDesc {
+    color: #3f444b;
+    border-color: #3f444b;
+    fill: #3f444b;
+    font-size: 15px;
+    line-height: normal;
+    letter-spacing: normal;
+    margin: 15px 0px 20px 0px;
+
+}
+
+.learnMoreContainer {
+    padding: 15px 0px 0;
+    border-style: solid;
+    border-width: 1px 0 0;
+    border-color: #00000026;
+    margin-bottom: 10px;
+}
+
+.learnMoreBtn {
+    color: #010ed0;
+    background-color: #02010100;
+    border-style: solid;
+    border-width: 0 0 3px;
+    border-color: #dee0ff;
+    border-radius: 0 0 0 0;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.viewAllContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.viewAll {
+    font-family: inter tight, Sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: none;
+    font-style: normal;
+    line-height: 1.2em;
+    letter-spacing: 0;
+    word-spacing: 0;
+    color: #ffffff;
+    background-color: #010ed0;
+    border-radius: 4px 4px 4px 4px;
+    padding: 14px 24px;
+    margin: 40px 0px;
+}
+
+.solution {
+
+    padding: 5px 7px;
+    background-color: #000993;
+    border-radius: 4px 4px 4px 4px;
+    color: #F5F5F5;
+    width: 10%;
+    text-align: center;
+    font-size: 12px;
+    margin: 6rem 0px 20px 0px;
+    text-transform: uppercase;
+
+}
+
+.solutionHeadingdescription {
+
+    color: #F5F5F5;
+    font-size: 26px;
+    letter-spacing: 1.5px;
+    line-height: 35px;
+    margin: 4% 0px;
+    width: 90%;
+}
+
+.btn {
+    font-family: inter tight, Sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: none;
+    font-style: normal;
+    line-height: 1.2em;
+    letter-spacing: 0;
+    word-spacing: 0;
+    color: #010ed0;
+    background-color: #ffffff;
+    border-radius: 4px 4px 4px 4px;
+    padding: 14px 24px;
+
+}

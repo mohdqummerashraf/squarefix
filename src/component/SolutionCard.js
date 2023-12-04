@@ -1,7 +1,7 @@
 'use client'
 import { Grid } from '@mui/material'
 import React from 'react'
-import styles from "../styles/Solution.module.css";
+import styles from "../styles/SolutionCard.module.css";
 
 function SolutionCard() {
 
@@ -53,7 +53,10 @@ function SolutionCard() {
                     <img src={item.imageUrl} />
                     <h2 className={styles.cardTitle}>{item.title}</h2>
                     <p className={styles.cardDesc}>{item.description}</p>
-                    <hr></hr>
+                    {/* <hr></hr> */}
+                    <div className={styles.learnMoreContainer}>
+                        <a className={styles.learnMoreBtn}>Learn More</a>
+                    </div>
                 </div>
             </Grid>
         ))

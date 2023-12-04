@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import { Grid } from '@mui/material'
 import Solutions from '@/component/Solutions'
+import Whatwedo from '@/component/Whatwedo'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -44,7 +45,13 @@ export default function Home() {
 
             </h1>
           </Grid>
+          <Grid item lg={12} md={12} sm={12} xs={12}>
+            <hr style={{
+              margin: '45px 0px 20px 0px'
+            }}></hr>
+          </Grid>
         </Grid>
+
         <Grid container justifyContent={'center'}>
           <Grid item lg={3} md={3} sm={6} xs={6}>
             <div className={styles.infoContainer}>
@@ -93,12 +100,9 @@ export default function Home() {
             </div>
           </Grid>
         </Grid>
-        <Solutions />
-
-
-
-
+        <Whatwedo />
       </main >
+      <Solutions />
     </>
   )
 }
